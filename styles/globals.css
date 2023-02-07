@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.mainContainer{
+    height: 75vh;
+    overflow: auto;
+}
+.mainContainer::-webkit-scrollbar{
+    width: 7px;
+}
+.mainContainer::-webkit-scrollbar-thumb{
+    background-color: rgb(201, 19, 19);
+}

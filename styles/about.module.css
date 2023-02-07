@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    height: 100%;
+}
+
+.text{
+    margin: 1rem;
+    width: 30rem;
+    text-align: center;
+}
+
+@media screen and (max-width:680px){
+    .container img{
+        width: 180px;
+        height: 180px;
+    }
+    .text{
+        margin: 1rem;
+        width: 20rem;
+        text-align: center;
+    }
+}
+@media screen and (max-width:330px){
+    .container h1{
+      font-size: 1.8rem;
+    }
+    .text{
+        margin: 1rem;
+        width: 16rem;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-height:480px){
+    .container h1{  
+            margin-top: 8rem;
+        
+    }
+    
+}
+@media screen and (max-height:385px){
+    .container h1{  
+            margin-top: 14rem;
+        
+    }
+    
+}
